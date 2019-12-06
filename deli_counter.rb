@@ -4,12 +4,11 @@ bobs_deli = []
 
 # customer queuing method
 def take_a_number(array)
-  if array.empty? == true
     ticket_number = 0 
-    puts
-  ticket_number = 0
-  array.push(ticket_number)
-  puts "Welcome, you are number #{ticket_number}."
+    puts "Welcome, you are number #{ticket_number}."
+    ticket_number = array.length
+    puts "Welcome, you are number #{ticket_number}"
+  end 
 end
 
 take_a_number(katz_deli, "Logan")
