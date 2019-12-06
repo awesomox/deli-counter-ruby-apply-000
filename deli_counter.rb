@@ -1,10 +1,10 @@
 # Starting empty 
 katz_deli = []
 bobs_deli = []
+ticket_number = 0 
 
 # customer queuing method
 def take_a_number(array)
-    ticket_number = array.length.to_i 
     ticket_number++
     array.push(ticket_number)
     puts "Welcome, you are number #{ticket_number}."
