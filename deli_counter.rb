@@ -7,7 +7,7 @@ def take_a_number(array)
   ticket_number = 0
   array.push = ticket_number
   position = array.index(ticket_number)
-  puts "Welcome, you are number #{ticket_number}. You are number #{position+=1} in line."
+  puts "Welcome, you are number #{ticket_number}."
 end
 
 take_a_number(katz_deli, "Logan")
