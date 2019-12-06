@@ -3,10 +3,11 @@ katz_deli = []
 bobs_deli = []
 
 # customer queuing method
-def take_a_number(array, name)
-  array.push(name)
-  position = array.index(name)
-  puts "Welcome, #{name}. You are number #{position+=1} in line."
+def take_a_number(array)
+  ticket_number = 0
+  array.push = ticket_number
+  position = array.index(ticket_number)
+  puts "Welcome, you are number #{ticket_number}. You are number #{position+=1} in line."
 end
 
 take_a_number(katz_deli, "Logan")
